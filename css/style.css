@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* オールラッパー */
+.all-wrapper {
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: #fff;
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: #000;
+}
+
+/* ヘッドラッパー */
+.head-wrapper {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header-logo {
+  width: 240px;
+  height: 120px;
+  margin: 0 auto;
+  background-image: url("..//img/bgLogo.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo img {
+  height: 80%;
+}
+
+.nav-list {
+  padding: 60px 0;
+}
+
+.nav-list ul li {
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.nav-list ul li a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.nav-list ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ヘッドイメージ */
+.head-image {
+  width: 100%;
+  height: 640px;
+  position: relative;
+}
+
+.head-image img {
+  width: 1280px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+}
+
+/* メッセージラッパー */
+.message-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.message-logo {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.message-logo:before, .message-logo:after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 2px;
+  background: #fff;
+  margin: auto 0;
+}
+
+.message-logo h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 25px;
+  padding: 0 80px;
+}
+
+.message-text p {
+  font-size: 15px;
+  padding-top: 45px;
+}
+
+.message-text p span {
+  font-size: 30px;
+  font-family: 'Caveat', cursive;
+}
+
+/* フォトラッパー */
+.photo-wrapper {
+  padding-top: 85px;
+}
+
+.photo-wrapper img {
+  width: 33.333333%;
+  vertical-align: bottom;
+}
+
+/* プロジェクトラッパー */
+.project-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 80px 0 85px 0;
+}
+
+.project-logo {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-logo:before, .project-logo:after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 2px;
+  background: #fff;
+  margin: auto 0;
+}
+
+.project-logo h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 25px;
+  padding: 0 80px;
+}
+
+.project-img {
+  width: 100%;
+  padding-top: 35px;
+}
+
+.project-img img {
+  width: 100%;
+}
+
+.project-text {
+  padding-top: 40px;
+}
+
+.project-text p {
+  font-size: 15px;
+}
+
+/* サブフォト */
+.sub-photo {
+  width: 100%;
+}
+
+.sub-photo img {
+  width: 100%;
+}
+
+/* ブランドラッパー */
+.brand-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 85px 0 80px 0;
+}
+
+.brand-logo {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.brand-logo:before, .brand-logo:after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 2px;
+  background: #fff;
+  margin: auto 0;
+}
+
+.brand-logo h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 25px;
+  padding: 0 80px;
+}
+
+.brand-contents {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 35px;
+}
+
+.contents-item {
+  width: 30%;
+}
+
+.contents-logo {
+  background-color: #fff;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.contents-logo img {
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.contents-text {
+  padding-top: 45px;
+}
+
+.contents-text p {
+  font-size: 15px;
+}
+
+/* ブランドフォト */
+.brand-photo {
+  background-image: url("../img/bgSec04.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.brand-photo img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 20%;
+}
+
+/* カンパニーラッパー */
+.company-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  padding: 80px 0 130px 0;
+}
+
+.company-logo {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.company-logo:before, .company-logo:after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 2px;
+  background: #fff;
+  margin: auto 0;
+}
+
+.company-logo h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  font-size: 25px;
+  padding: 0 80px;
+}
+
+.company-infomation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 40px;
+}
+
+.company-profile {
+  width: 38%;
+}
+
+.company-address p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.sns-icons {
+  padding-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.sns-icons a {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.sns-icons img {
+  width: 100%;
+}
+
+.company-map {
+  width: 60%;
+  height: 0;
+  padding-bottom: 50%;
+  position: relative;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+/* トップに戻るボタン */
+.top-btn {
+  display: none;
+}
+
+.fa-angle-double-up {
+  display: none;
+}
